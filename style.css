@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2021;
+}
+.menu {
+    margin: 15px;
+    display: flex;
+    gap: 20px;
+    background-color: #e9ecef;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    border-radius: 15px;
+    align-items:center;
+}
+.menu a {
+    color: #1f2021;
+    text-decoration: none;
+    
+}
+.menu a:hover {
+    color: yellow;
+}
+.menu img{
+    height: 30px;
+    width: 30px;
+}
+form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    flex: start;
+}
+form input {
+    margin: 10px;
+}
