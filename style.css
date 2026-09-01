@@ -27,12 +27,22 @@ body {
     width: 30px;
 }
 form {
-    margin: 20px;
+    margin: 40px auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
-    flex: start;
+    width: 90%;
+    max-width: 600px;  
+}
+form input[type="text"] {
+    width: 100%;         /* Toma todo el ancho del contenedor form */
+    padding: 15px 20px;  /* Aumenta el alto y espacio interno */
+    font-size: 18px;     /* Texto más grande */
+    border-radius: 10px; /* Bordes redondeados suavemente */
+    border: 2px solid #ccc;
+    box-sizing: border-box; /* Asegura que el padding no desborde el ancho */
+    outline: none;
 }
 form input {
     margin: 10px;
