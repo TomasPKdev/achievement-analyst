@@ -19,10 +19,15 @@ body {
     text-decoration: none;
     font-family: poppins, sans-serif;
 }
+.brand {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 .menu a:hover {
     color: #B0ADA7;
 }
-.menu img{
+.menu div img{
     height: 30px;
     width: 30px;
 }
