@@ -19,29 +19,30 @@
             
         </nav>
     <main>
-<form id="search-form">
+        <form id="search-form">
             <input type="text" id="game-input" placeholder="Search Games by Name or APP ID..." required>
             <input type="submit" value="Search">
+
+            <div id="suggestions" tabindex ="0">
+                <article id="suggestion1" class="suggestion">
+                    <img src="" alt="Imagen 1">
+                    <p></p>
+                </article>
+                <article id="suggestion2" class="suggestion">
+                    <img src="" alt="Imagen 2">
+                    <p></p>
+                </article>
+                <article id="suggestion3" class="suggestion">
+                    <img src="" alt="Imagen 3">
+                    <p></p>
+                </article>
+                <article id="suggestion4" class="suggestion">
+                    <img src="" alt="Imagen 4">
+                    <p></p>
+                </article>
+            </div>
         </form>
         <div id="results"></div>
-        <div id="suggestions">
-            <article id="suggestion1" class="suggestion">
-                <img src="" alt="Imagen 1">
-                <p></p>
-            </article>
-            <article id="suggestion2" class="suggestion">
-                <img src="" alt="Imagen 2">
-                <p></p>
-            </article>
-            <article id="suggestion3" class="suggestion">
-                <img src="" alt="Imagen 3">
-                <p></p>
-            </article>
-            <article id="suggestion4" class="suggestion">
-                <img src="" alt="Imagen 4">
-                <p></p>
-            </article>
-        </div>
     </main>
 
     <script src="script-analyst.js"></script>

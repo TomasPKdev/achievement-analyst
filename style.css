@@ -50,6 +50,12 @@ form input[type="text"] {
     box-sizing: border-box;
     outline: none;
 }
+form input[type="submit"]{
+    position:absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
 form input {
     margin: 10px;
 }
@@ -58,6 +64,13 @@ form input {
     top: 100%;
     left: 0;
     width: 100%;
+    display: none;
+    background-color: #1e2122;
+    border-radius: 10px;
+    z-index: 10;
+}
+form:focus-within #suggestions {
+    display: block;
 }
 .suggestion{
     display: flex;
