@@ -40,6 +40,11 @@ form.addEventListener('input', function(event) { //la constante form le creo un 
           article.style.display = 'flex';
           article.querySelector('img').src = game.tiny_image;
           article.querySelector('p').textContent = game.name;
+
+          // Al hacer clic, redirige a la página dedicada pasando el id del juego
+          article.onclick = function() {
+            window.location.href = `game.html?appid=${game.id}`;
+          };
         } else {
           article.style.display = 'none'; // Oculta si hay menos de 4 resultados
         }
