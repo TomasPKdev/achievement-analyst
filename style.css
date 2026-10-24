@@ -39,23 +39,19 @@ form {
     gap: 15px;
     align-items: center;
     width: 90%;
-    max-width: 600px;  
+    max-width: 750px;  
 }
 form input[type="text"] {
     width: 100%;
     padding: 15px 20px;
     font-size: 18px;
     border-radius: 10px;
-    border: 2px solid #ccc;
+    background-color: #1e2122;
+    color: #B0ADA7;
     box-sizing: border-box;
     outline: none;
 }
-form input[type="submit"]{
-    position:absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
+
 form input {
     margin: 10px;
 }
@@ -65,20 +61,26 @@ form input {
     left: 0;
     width: 100%;
     display: none;
-    background-color: #1e2122;
+    background-color: #151718;
+    color: #9c9993;
     border-radius: 10px;
     z-index: 10;
+    font-size: 20px;
 }
-form:focus-within #suggestions {
-    display: block;
-}
+
 .suggestion{
     display: flex;
     align-items: center;
     gap: 15px;
-    border: 2px solid #9c9993;
+}
+.suggestion:hover {
+    background-color: #1e2122;
+    color: #B0ADA7;
+    cursor: pointer;
+    border:#1e2122 2px solid;
+
 }
 .suggestion img {
-    width: 175px;
-    height: 87.5px;
+    width: 231px;
+    height: 87px;
 }
