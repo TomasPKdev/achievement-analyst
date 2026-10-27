@@ -84,3 +84,48 @@ form input {
     width: 231px;
     height: 87px;
 }
+
+/*free-games*/
+
+.games-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+    color: #9c9993;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.card img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+    transition: 0.75s;
+}
+
+.card p {
+    margin: 6px 0 0 0;
+    margin-top: 12px;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+
+}
+
+.card-h img {
+    width: 460px;
+    height: 215px;
+}
